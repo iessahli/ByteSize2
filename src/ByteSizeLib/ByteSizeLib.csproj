@@ -7,7 +7,7 @@
     <Version>2.1.2</Version>
     <AssemblyTitle>ByteSize</AssemblyTitle>
     <Authors>Omar Khudeira</Authors>
-    <TargetFrameworks>netstandard1.0;netstandard2.1;netstandard2.0;net45;net5.0;</TargetFrameworks>
+    <TargetFrameworks>netstandard1.0;netstandard2.1;netstandard2.0;</TargetFrameworks>
     <LangVersion>9.0</LangVersion>
     <Nullable>enable</Nullable>
     <AssemblyName>ByteSize</AssemblyName>
