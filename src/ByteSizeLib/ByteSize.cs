@@ -383,7 +383,11 @@ namespace ByteSizeLib
         /// <param name="value">The number of bytes.</param>
         public ByteSize AddBytes(double value)
         {
-            return this + ByteSize.FromBytes(value);
+                ByteSize x = this;
+                ByteSize y = FromBytes(value);
+                
+                ByteSize result = x + y;
+                return result;
         }
         
         /// <summary>
